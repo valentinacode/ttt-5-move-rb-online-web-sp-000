@@ -4,8 +4,6 @@ def display_board
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
-  binding.pry
-  input.to_i.between?(1, 9)
 end
 
 display_board
