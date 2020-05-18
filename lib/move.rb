@@ -1,8 +1,3 @@
-def greeting(name)
-puts "Welcome to Tic Tac Toe!"
-puts "where would you like to go?"
-end
-
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
